@@ -1,0 +1,54 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .container-fluid{
+    margin: 3% 7%;
+} */
+
+#container{
+    background: url(./images/IMG_2363.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.overlay{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.883), rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.109));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#header h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.383);
+    position: absolute;
+    z-index: 1;
+}
+
+#header h2{
+    font-size: 2.5rem;
+    height: 50px;
+    padding: 7px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.menu{
+    position: fixed;
+    z-index: 5;
+    top: 225px;
+    right: 0;
+}
+
+.menu a{
+    margin: 5px;
+}
