@@ -63,7 +63,7 @@ label{
     width: 50px;
     height: 50px;
     text-align: center;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .menu a{
@@ -124,12 +124,12 @@ section{
 
 
 
-@media (max-width: 1028px) and (max-width: 667px){
+@media (max-width: 1028px) {
     .all_nav{
         display: flex;
         position: absolute;
         top: 0;
-        left: 0;
+        left: -240px;
         transition: .3s ease-in-out;
     }
     .menu{
@@ -137,13 +137,15 @@ section{
         top: 5%;
         /* left: -188px; */
         width: 50%;
-        display: none;
+        /* display: none; */
         transition: .3s ease-in-out;
     }
     
     .menu a{
         margin: -1px;
         /* width: auto; */
+        height: 58px;
+        font-size: 25px;
     }
     .all_nav #menu_open{
         display: block;
