@@ -126,6 +126,9 @@ section{
 
 
 @media (max-width: 1028px) and (max-width: 667px){
+    #container{
+        height: 100vh;
+    }
     .all_nav{
         display: flex;
         position: absolute;
