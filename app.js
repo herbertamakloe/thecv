@@ -52,13 +52,13 @@ document.getElementById('home_btn').addEventListener("click", function () {
 
 
 document.getElementById('menu_open').addEventListener("click", function () {
-    document.getElementById('menu').style.display = "block";
+    document.getElementById('all_nav').style.left = "0";
     document.getElementById('menu_open').style.display = "none";
     document.getElementById('menu_close').style.display = "block";
 });
 
 document.getElementById('menu_close').addEventListener("click", function () {
-    document.getElementById('menu').style.display = "none";
+    document.getElementById('all_nav').style.left = "-240px";
     document.getElementById('menu_open').style.display = "block";
     document.getElementById('menu_close').style.display = "none";
 });
