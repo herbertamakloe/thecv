@@ -15,37 +15,48 @@
 
 <body>
 
-    <div id="container">
-        <div id="header" class="col-lg-6">
-            <h1 class="navbar-brand greeting"><span class="typing"></span>！</h1>
-            <h2 class="wow fadeInLeft">Full-Stack Web Developer, <br>
-                Aspiring C.E.O of Eli Web Development, <br>
-                Leader
-            </h2>
+    <div class="main-container">
+        <div id="container">
+            <div id="header" class="col-lg-6">
+                <h1 class="navbar-brand greeting"><span class="typing"></span>！</h1>
+                <h2 class="wow fadeInLeft">Full-Stack Web Developer, <br>
+                    Aspiring C.E.O of Eli Web Development, <br>
+                    Leader
+                </h2>
+            </div>
+
         </div>
 
+        <div class="overlay" id="overlay"></div>
+
+
+        <div class="all_nav" id="all_nav">
+            <div class="menu wow fadeInRight" id="menu">
+                <a href="#workflow_page" class="btn" id="workflow">Workflow</a>
+                <a href="#portfolio_page" class="btn" id="portfolio">Portfolio</a>
+                <a href="#cv_download_page" class="btn" id="download">CV Download</a>
+            </div>
+            <label id="menu_open"><i class="fas fa-ellipsis-v"></i></label>
+            <label id="menu_close"><i class="fas fa-power-off"></i></label>
+        </div>
+
+
+        <section class="workflow_page" id="workflow_page">
+            <h1>Workflow</h1>
+        </section>
+
+        <section class="portfolio_page" id="portfolio_page">
+            <h1>Portfolio</h1>
+        </section>
+
+        <section class="cv_download_page" id="cv_download_page">
+            <h1>CV Download</h1>
+        </section>
+
+        <a href="#container" class="home_btn" id="home_btn"><i class="fas fa-home"></i></a>
+
     </div>
 
-    <div class="overlay" id="overlay"></div>
-    <div class="menu btn-group-vertical wow fadeInRight">
-        <a href="#workflow_page" class="btn" id="workflow">workflow</a>
-        <a href="#portfolio_page" class="btn" id="portfolio">portfolio</a>
-        <a href="#cv_download_page" class="btn" id="download">CV Download</a>
-    </div>
-
-    <section class="workflow_page" id="workflow_page">
-        <h1>Workflow</h1>
-    </section>
-
-    <section class="portfolio_page" id="portfolio_page">
-        <h1>Portfolio</h1>
-    </section>
-
-    <section class="cv_download_page" id="cv_download_page">
-        <h1>CV Download</h1>
-    </section>
-
-    <a href="#container" class="home_btn" id="home_btn"><i class="fas fa-home"></i></a>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
