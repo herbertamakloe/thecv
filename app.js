@@ -5,8 +5,7 @@ var typed = new Typed(".typing", {
         "欢迎",
         "Accueil",
         "Bienvenido",
-        "Willkommen",
-        // "Arabic"
+        "Willkommen"
     ],
     typeSpeed: 60,
     backSpeed: 60,
@@ -62,6 +61,19 @@ document.getElementById('menu_close').addEventListener("click", function () {
     document.getElementById('menu_open').style.display = "block";
     document.getElementById('menu_close').style.display = "none";
 });
+
+
+function notice() {
+    document.getElementById('onload_notice').style.display = "block";
+    document.querySelector('.prompt_close_btn').addEventListener('click', function () {
+        document.getElementById('onload_notice').style.display = "none";
+    });
+}
+
+
+
+
+
 
 
 
