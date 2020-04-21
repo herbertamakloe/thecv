@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="notice();">
 
     <div class="main-container">
         <div id="container">
             <div id="header" class="col-lg-6">
-                <h1 class="navbar-brand greeting"><span class="typing"></span>！</h1>
+                <h1 class="navbar-brand greeting"><span class="typing"></span>!</h1>
                 <h2 class="wow fadeInLeft">Full-Stack Web Developer, <br>
                     Aspiring C.E.O of Eli Web Development, <br>
                     Leader
@@ -36,7 +36,8 @@
                 <a href="#portfolio_page" class="btn" id="portfolio">Portfolio</a>
                 <a href="#cv_download_page" class="btn" id="download">CV Download</a>
             </div>
-            <label id="menu_open"><i class="fas fa-ellipsis-v"></i></label>
+            <!-- <label id="menu_open"><i class="fas fa-ellipsis-v"></i></label> -->
+            <label id="menu_open"><i class="fas fa-bars"></i></label>
             <label id="menu_close"><i class="fas fa-power-off"></i></label>
         </div>
 
@@ -51,11 +52,35 @@
 
         <section class="cv_download_page" id="cv_download_page">
             <h1>CV Download</h1>
+            <a href="https://drive.google.com/uc?export=download&id=1L_z2cn3cpScBmRHhcbQhtRmyCZJ5uJ-E">Download CV
+                now</a>
+            <!--I found means and ways of making my cv downloadable. It was all Jesus! Trust me, I know-->
         </section>
 
         <a href="#container" class="home_btn" id="home_btn"><i class="fas fa-home"></i></a>
 
+        <div class="onload_notice" id="onload_notice">
+            <div id="prompt">
+                <button class="prompt_close_btn">+</button>
+                <h3>COVID-19</h3>
+                <h4>STAY SAFE DURING THESE
+                    TIMES. DON'T SPREAD FEAR </h4>
+                <p>Wishes you all the best</p>
+            </div>
+        </div>
+
     </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
