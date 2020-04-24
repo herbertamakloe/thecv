@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 
 #container{
@@ -85,15 +86,39 @@ section{
     left: -1370px;
     z-index: 4;
     transition: .3s ease-in-out;
-    background-color: #232323;
+    background-color: #23232300;
 }
 
-/*.workflow_page{
+.workflow_page{
     
      overflow-y: scroll; 
 }
 
-.portfolio_page{
+.workflow_page .container{
+    display: flex;
+}
+
+.text_content, .img_content{
+    display: inline-block;
+}
+
+.text_content h1, .text_content p{
+    margin: 100px 0 0 0;
+}
+
+.text_content h1{
+    font-size: 4.5rem;
+}
+
+.text_content p{
+    font-size: 25px;
+}
+
+.img_content img{
+    width: 100%;
+}
+
+/*.portfolio_page{
 
 }
 
@@ -204,6 +229,36 @@ section{
     
     #header h2{
         font-size: 2.5rem;
+    }
+
+    .workflow_page .container{
+        display: block;
+    }
+    .img_content{
+        position: absolute;
+        top: 100px;
+        left: 0;
+    }
+    .img_content img{
+        width: 100%;
+    }
+    .text_content{
+        position: absolute;
+        z-index: 1;
+        top: 367px;
+        left: 0;
+        background: rgba(0,0,0,0.8);
+    }
+    .text_content h1, .text_content p{
+        margin: 0;
+        padding: 8px;
+        text-align: center;
+    }
+    .text_content h1{
+        font-size: 3rem;
+    }
+    .text_content p{
+        font-size: 20px;
     }
     .home_btn{
         width: 70px;
